@@ -1,0 +1,1 @@
+web: gunicorn dark152.wsgi --log-file –
