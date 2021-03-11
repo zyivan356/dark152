@@ -2,7 +2,7 @@ from django.contrib.auth import authenticate, login, logout, get_user_model
 from django.http import Http404
 from django.shortcuts import redirect, render
 from django.shortcuts import render
-from users.forms import UserLoginForm, UserRegistrationForm
+from accounts.forms import UserLoginForm, UserRegistrationForm
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from posts.models import Post
 from django.conf import settings
