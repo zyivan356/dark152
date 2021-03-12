@@ -86,6 +86,3 @@ def other_account(request, account_id):
 def home(request):
     clear = print("")
     return render(request, 'users/home.html', {'clear': clear})
-from django.shortcuts import render
-
-# Create your views here.

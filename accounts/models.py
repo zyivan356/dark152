@@ -23,7 +23,7 @@ class MyUserManager(BaseUserManager):
         user.save(using=self._db)
         return user
 
-    def create_superuser(self, email, password=None):
+    def create_superuser(self, email, username=None, password=None):
         """
         Creates and saves a superuser with the given email, date of
         birth and password.
@@ -36,19 +36,16 @@ class MyUserManager(BaseUserManager):
         user.save(using=self._db)
         return user
 
-
-class MyUser(AbstractBaseUser):
+class User(AbstractBaseUser):
     email = models.EmailField(verbose_name='email address', max_length=255, unique=True)
-    username = models.CharField(verbose_name='username', max_length=16, unique=True, default='admin')
-    description = models.TextField(max_length=255, null=True, blank=True)
-    avatar = models.ImageField(upload_to='users/avatars/', null=True, default='users/avatars/default_avatar.png')
+    username = models.CharField(verbose_name='username', max_length=30, unique=True)
     is_active = models.BooleanField(default=True)
     is_admin = models.BooleanField(default=False)
 
-    objects = MyUserManager()
-
     USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = []
+    REQUIRED_FIELDS = ['username', ]
+
+    objects = MyUserManager()
 
     def __str__(self):
         return self.email
@@ -68,3 +65,4 @@ class MyUser(AbstractBaseUser):
         "Is the user a member of staff?"
         # Simplest possible answer: All admins are staff
         return self.is_admin
+
