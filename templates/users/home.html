@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block tilte %}phonk{% endblock %}
+{% block tilte %}Профиль{% endblock %}
 
 {% load static %}
 
@@ -8,6 +8,15 @@
 
 {% block content %}
 
-<p class="title">Phonk</p>
+    <div class="grey_page">
+		{% include 'menu.html' %}
+		<div class="main_div">
+			<div class="main_inside">
+				<p class="main_title">dark152</p>
+				<p class="main_title2">dark school</p>
+			</div>
+			<img src="{% static 'home/images/main_block.png' %}" class="main_block">
+		</div>
+	</div>
 
 {% endblock %}
