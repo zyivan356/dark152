@@ -21,7 +21,7 @@
 
         <div class="profile_post">
             <div class="profile_post_author_and_pubdate_div">
-                <a class="profile_post_author" href="{% url 'users:users' post.author.id %}">{{ post.author.username }}</a>
+                <a class="profile_post_author" href="{% url 'accounts:users' post.author.id %}">{{ post.author.username }}</a>
                 <p class="profile_post_pubdate">&nbsp&nbsp{{ post.pubdate|date:"d.m.y" }}</p>
             </div>
             <div class="profile_post_text_div">
