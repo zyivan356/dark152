@@ -99,6 +99,7 @@ html, body{
 	border-radius: 10px;
 	background-color: #373737;
 	border: solid #6d25c4;
+	-webkit-box-shadow:0 0 20px #000; box-shadow:0 0 20px #000;
 }
 .profile_post_avatar_div{
 	width: 75px;
@@ -113,75 +114,18 @@ html, body{
 	text-decoration: none;
 	font-size: 20px;
 	margin-left: 10px;
+	color: #bcbcbc;
 }
 .profile_post_pubdate{
+	color: #bcbcbc;
 }
 .profile_post_author_and_pubdate_div {
 	padding: 20px;
+	color: #bcbcbc;
 }
 .profile_post_text{
 	padding: 20px;
-}
-
-.profile_post_text_div{
-    overflow: hidden;
-    height: 150px;
-    width: 90%;
-}
-
-.profile_post_text_div__inner{
-    -webkit-column-width: 150px;
-    -moz-column-width: 150px;
-    column-width: 1000px;
-    height: 100%;
-}
-.profile_avatar_div{
-	width: 250px;
-	height: 250px;
-	border: white;
-	border-radius: 150px;
-	margin-top: 25px;
-	margin-left: 50px;
-	float: left;
-}
-.profile_username{
-	color: white;
-	padding-top: 70px;
-	margin-left: 350px;
-}
-.profile_description{
-	color: white;
-	margin-left: 350px;
-}
-.profile_post{
-	width: 96%;
-	height: 250px;
-	margin-left: 35px;
-	margin-top: 50px;
-	border-radius: 10px;
-	background-color: #e2e7f6;
-}
-.profile_post_avatar_div{
-	width: 75px;
-	height: 75px;
-	border: white;
-	border-radius: 150px;
-	float: left;
-	margin-left: 10px;
-	margin-top: 10px;
-}
-.profile_post_author{
-	text-decoration: none;
-	font-size: 20px;
-	margin-left: 10px;
-}
-.profile_post_pubdate{
-}
-.profile_post_author_and_pubdate_div {
-	padding: 20px;
-}
-.profile_post_text{
-	padding: 20px;
+	color: #bcbcbc;
 }
 
 .profile_post_text_div{
@@ -379,7 +323,7 @@ html, body{
     height: 100%;
 }
 .register_background{
-	background-image: linear-gradient(-133deg, #6717cd 0%, #2871fa 100%);
+	background-color: #373737;
 	width: 100%;
 	min-height: 100%;
 }
@@ -439,7 +383,7 @@ label{
 	margin-left: 25%;
 }
 .login_background{
-	background-image: linear-gradient(-133deg, #6717cd 0%, #2871fa 100%);
+	background-color: #373737;
 	width: 100%;
 	min-height: 100%;
 }
