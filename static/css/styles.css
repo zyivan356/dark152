@@ -97,7 +97,8 @@ html, body{
 	margin-left: 35px;
 	margin-top: 50px;
 	border-radius: 10px;
-	background-color: #e2e7f6;
+	background-color: #373737;
+	border: solid #6d25c4;
 }
 .profile_post_avatar_div{
 	width: 75px;
