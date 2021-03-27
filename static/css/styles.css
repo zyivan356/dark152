@@ -47,6 +47,8 @@ html, body{
 	float: right;
 	padding-top: 15px;
 	padding-right: 15px;
+	height: 250px;
+	margin-right: 100px;
 }
 .main_inside{
 	float: left;
