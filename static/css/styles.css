@@ -1,18 +1,21 @@
 *{
 	padding: 0;
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', cursive;
 }
 html, body{
 	height: 100%;
+	background-color: #303030;
 }
 .menu_buttons{
 	width: 96%;
 	height: 94px;
+	border: solid #6d25c4;
 	border-radius: 10px;
-	background-image: linear-gradient(-133deg, #6717cd 0%, #2871fa 100%);
+	background-color: #373737;
 	margin-left: 35px;
 	margin-top: 22px;
+	-webkit-box-shadow:0 0 20px #000; box-shadow:0 0 20px #000;
 }
 .main_div{
 	width: 96%;
@@ -20,13 +23,15 @@ html, body{
 	margin-left: 35px;
 	margin-top: 22px;
 	border-radius: 10px;
-	background-image: linear-gradient(-133deg, #6717cd 0%, #2871fa 100%);
+	background-color: #373737;
+	border: solid #6d25c4;
+	-webkit-box-shadow:0 0 20px #000; box-shadow:0 0 20px #000;
 }
 .main_title{
 	color: #ffffff;
 	font-size: 72px;
 	font-weight: 400;
-	text-transform: uppercase;
+
 	padding-top: 90px;
 	padding-left: 134px;
 	transition: 0.5s;
@@ -36,7 +41,6 @@ html, body{
 	font-family: Verdana;
 	font-size: 24px;
 	font-weight: 400;
-	text-transform: uppercase;
 	padding-left: 141px;
 }
 .main_block{
@@ -50,7 +54,7 @@ html, body{
 .menu_button{
 	float: left;
 	transition: 0.5s;
-	background-color: white;
+	background-color: #373737;
 	height: 50px;
 	width: 150px;
 	margin-top: 20px;
@@ -59,14 +63,13 @@ html, body{
 	text-align: center;
 }
 .menu_button:hover{
-	background-color: #C4C4C4;
+	background-color: #7a7a7a;
 }
 .text_button{
 	font-size: 20px;
-	color: black;
+	color: #bcbcbc;
 	text-decoration: none;
 	line-height: 2.5em;
-	text-transform: uppercase;
 }
 .profile_avatar_div{
 	width: 250px;
@@ -199,7 +202,9 @@ html, body{
 	margin-left: 35px;
 	margin-top: 50px;
 	border-radius: 10px;
-	background-color: #e2e7f6;
+	background-color: #373737;
+	border: solid #6d25c4;
+	-webkit-box-shadow:0 0 20px #000; box-shadow:0 0 20px #000;
 }
 .news_post_avatar_div{
 	width: 75px;
@@ -214,14 +219,17 @@ html, body{
 	text-decoration: none;
 	font-size: 20px;
 	margin-left: 10px;
+	color: #bcbcbc;
 }
 .news_post_pubdate{
+	color: #bcbcbc;
 }
 .news_post_author_and_pubdate_div {
 	padding: 20px;
 }
 .news_post_text{
 	padding: 20px;
+	color: #bcbcbc;
 }
 
 .news_post_text_div{
