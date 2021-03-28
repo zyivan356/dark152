@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block tilte %}Профиль{% endblock %}
+<title>{% block title %}{{ user.username }}{% endblock %}</title>
 
 {% block content %}
 

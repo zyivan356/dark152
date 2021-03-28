@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block tilte %}Профиль{% endblock %}
+<title>{% block title %}{{ user.username }}{% endblock %}</title>
 
 {% load static %}
 
@@ -12,6 +12,7 @@
 
 
     <div class="main_div">
+    <img src="{{ user.avatar.url }}" class="profile_avatar_div">
     <h1 class="profile_username">{{ user.username }}</h1>
     <p class="profile_description">{{ user.description }}</p>
     </div>
