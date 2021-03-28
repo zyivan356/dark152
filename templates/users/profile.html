@@ -21,6 +21,7 @@
     {% for post in user_posts %}
 
         <div class="profile_post">
+            <img class="profile_post_avatar_div" src="{{ user.avatar.url }}"</img>
             <div class="profile_post_author_and_pubdate_div">
                 <a class="profile_post_author" href="{% url 'accounts:users' post.author.id %}">{{ post.author.username }}</a>
                 <p class="profile_post_pubdate">&nbsp&nbsp{{ post.pubdate|date:"d.m.y" }}</p>

@@ -8,6 +8,7 @@
 
 
     <div class="main_div">
+    <img src="{{ user.avatar.url }}" class="other_profile_avatar_div">
     <h1 class="other_profile_username">{{ user.username }}</h1>
     <p class="other_profile_description">{{ user.description }}</p>
     </div>
@@ -16,6 +17,7 @@
     {% for post in user_posts %}
 
         <div class="other_profile_post">
+            <img class="other_profile_post_avatar_div" src="{{ user.avatar.url }}"</img>
             <div class="other_profile_post_author_and_pubdate_div">
                 <a class="other_profile_post_author" href="{% url 'accounts:users' post.author.id %}">{{ post.author.username }}</a>
                 <p class="other_profile_post_pubdate">&nbsp&nbsp{{ post.pubdate|date:"d.m.y" }}</p>
