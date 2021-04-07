@@ -2,12 +2,24 @@
 
 <title>{% block title %}Create{% endblock %}</title>
 
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
 {% block content %}
 
-    <form method="post">
-        {% csrf_token %}
-        {{form.as_p}}
-        <button type="submit">Submit</button>
-    </form>
+    <div class="grey_page">
+		{% include 'menu.html' %}
+    </div>
+            <div class="post_form_div">
+                <h1 class="h1_post_create">Post creating</h1>
+                <form method="post">
+                    {% csrf_token %}
+                    {{form.media}}
+                    {{form.as_p}}
+                    <button type="submit" class="post_form_button"><p class="text_button">post</p></button>
+                </form>
+            </div>
+
 
 {% endblock %}

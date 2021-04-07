@@ -23,7 +23,7 @@ def post(request, post_id):
 
 
 def news(request):
-    posts = Post.objects.all().exclude(author=request.user).order_by("-pubdate")
+    posts = Post.objects.all().order_by("-pubdate")
     page = request.GET.get('page', 1)
     paginator = Paginator(posts, 20)
     try:
@@ -46,6 +46,6 @@ def post_create(request):
             post.pubdate = datetime.datetime.now()
             post.save()
             form = PostForm()
-            messages.success(request, "Successfully created")
+            return redirect('/profile/')
 
     return render(request, 'posts/form.html', {'form': form})

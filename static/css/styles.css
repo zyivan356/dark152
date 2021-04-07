@@ -3,10 +3,12 @@
 	margin: 0;
 	font-family: 'Comfortaa', cursive;
 }
+
 html, body{
 	height: 100%;
 	background-color: #303030;
 }
+
 .menu_buttons{
 	width: 96%;
 	height: 94px;
@@ -17,6 +19,7 @@ html, body{
 	margin-top: 22px;
 	-webkit-box-shadow:0 0 20px #000; box-shadow:0 0 20px #000;
 }
+
 .main_div{
 	width: 96%;
 	height: 300px;
@@ -27,6 +30,7 @@ html, body{
 	border: solid #6d25c4;
 	-webkit-box-shadow:0 0 20px #000; box-shadow:0 0 20px #000;
 }
+
 .main_title{
 	color: #ffffff;
 	font-size: 72px;
@@ -36,6 +40,7 @@ html, body{
 	padding-left: 134px;
 	transition: 0.5s;
 }
+
 .main_title2{
 	color: #ffffff;
 	font-family: Verdana;
@@ -43,6 +48,7 @@ html, body{
 	font-weight: 400;
 	padding-left: 141px;
 }
+
 .main_block{
 	float: right;
 	padding-top: 15px;
@@ -50,9 +56,11 @@ html, body{
 	height: 250px;
 	margin-right: 100px;
 }
+
 .main_inside{
 	float: left;
 }
+
 .menu_button{
 	float: left;
 	transition: 0.5s;
@@ -64,15 +72,18 @@ html, body{
 	border-radius: 20px;
 	text-align: center;
 }
+
 .menu_button:hover{
 	background-color: #7a7a7a;
 }
+
 .text_button{
 	font-size: 20px;
 	color: #bcbcbc;
 	text-decoration: none;
 	line-height: 2.5em;
 }
+
 .profile_avatar_div{
 	width: 250px;
 	height: 250px;
@@ -82,15 +93,18 @@ html, body{
 	margin-left: 50px;
 	float: left;
 }
+
 .profile_username{
 	color: white;
 	padding-top: 70px;
 	margin-left: 350px;
 }
+
 .profile_description{
 	color: white;
 	margin-left: 350px;
 }
+
 .profile_post{
 	width: 96%;
 	height: 250px;
@@ -101,6 +115,7 @@ html, body{
 	border: solid #6d25c4;
 	-webkit-box-shadow:0 0 20px #000; box-shadow:0 0 20px #000;
 }
+
 .profile_post_avatar_div{
 	width: 75px;
 	height: 75px;
@@ -110,19 +125,23 @@ html, body{
 	margin-left: 10px;
 	margin-top: 10px;
 }
+
 .profile_post_author{
 	text-decoration: none;
 	font-size: 20px;
 	margin-left: 10px;
 	color: #bcbcbc;
 }
+
 .profile_post_pubdate{
 	color: #bcbcbc;
 }
+
 .profile_post_author_and_pubdate_div {
 	padding: 20px;
 	color: #bcbcbc;
 }
+
 .profile_post_text{
 	padding: 20px;
 	color: #bcbcbc;
@@ -141,8 +160,6 @@ html, body{
     height: 100%;
 }
 
-
-
 .news_post{
 	width: 96%;
 	height: 250px;
@@ -153,6 +170,7 @@ html, body{
 	border: solid #6d25c4;
 	-webkit-box-shadow:0 0 20px #000; box-shadow:0 0 20px #000;
 }
+
 .news_post_avatar_div{
 	width: 75px;
 	height: 75px;
@@ -162,18 +180,22 @@ html, body{
 	margin-left: 10px;
 	margin-top: 10px;
 }
+
 .news_post_author{
 	text-decoration: none;
 	font-size: 20px;
 	margin-left: 10px;
 	color: #bcbcbc;
 }
+
 .news_post_pubdate{
 	color: #bcbcbc;
 }
+
 .news_post_author_and_pubdate_div {
 	padding: 20px;
 }
+
 .news_post_text{
 	padding: 20px;
 	color: #bcbcbc;
@@ -191,14 +213,13 @@ html, body{
     column-width: 1000px;
     height: 100%;
 }
+
 .news_post_text_div__inner{
     -webkit-column-width: 150px;
     -moz-column-width: 150px;
     column-width: 1000px;
     height: 100%;
 }
-
-
 
 .other_profile_avatar_div{
 	width: 250px;
@@ -209,15 +230,18 @@ html, body{
 	margin-left: 50px;
 	float: left;
 }
+
 .other_profile_username{
 	color: white;
 	padding-top: 70px;
 	margin-left: 350px;
 }
+
 .other_profile_description{
 	color: white;
 	margin-left: 350px;
 }
+
 .other_profile_post{
 	width: 96%;
 	height: 250px;
@@ -228,6 +252,7 @@ html, body{
 	border: solid #6d25c4;
 	-webkit-box-shadow:0 0 20px #000; box-shadow:0 0 20px #000;
 }
+
 .other_profile_post_avatar_div{
 	width: 75px;
 	height: 75px;
@@ -237,19 +262,23 @@ html, body{
 	margin-left: 10px;
 	margin-top: 10px;
 }
+
 .other_profile_post_author{
 	text-decoration: none;
 	font-size: 20px;
 	margin-left: 10px;
 	color: #bcbcbc;
 }
+
 .other_profile_post_pubdate{
 	color: #bcbcbc;
 }
+
 .other_profile_post_author_and_pubdate_div {
 	padding: 20px;
 	color: #bcbcbc;
 }
+
 .other_profile_post_text{
 	padding: 20px;
 }
@@ -267,11 +296,13 @@ html, body{
 	column-width: 1000px;
 	height: 100%;
 }
+
 .register_background{
 	background-color: #373737;
 	width: 100%;
 	min-height: 100%;
 }
+
 .register_logo{
 	font-size: 64px;
 	color: white;
@@ -279,6 +310,7 @@ html, body{
 	padding-top: 200px;
 	text-transform: uppercase;
 }
+
 .email_form{
 	font-size: 36px;
 	border: white;
@@ -287,6 +319,7 @@ html, body{
 	margin-left: 153px;
 	outline:none;
 }
+
 .username_form{
 	font-size: 36px;
 	border: white;
@@ -295,6 +328,7 @@ html, body{
 	margin-left: 76px;
 	outline:none;
 }
+
 .password_form{
 	font-size: 36px;
 	border: white;
@@ -303,6 +337,7 @@ html, body{
 	margin-left: 85px;
 	outline:none;
 }
+
 .password2_form{
 	font-size: 36px;
 	border: white;
@@ -311,6 +346,7 @@ html, body{
 	margin-left: 40px;
 	outline:none;
 }
+
 .register_button{
 	margin-left: 40%;
 	height: 100px;
@@ -322,16 +358,13 @@ html, body{
 	font-size: 48px;
 	text-transform: uppercase;
 }
-label{
-	font-size: 36px;
-	color: white;
-	margin-left: 25%;
-}
+
 .login_background{
 	background-color: #373737;
 	width: 100%;
 	min-height: 100%;
 }
+
 .login_logo{
 	font-size: 64px;
 	color: white;
@@ -339,6 +372,7 @@ label{
 	padding-top: 200px;
 	text-transform: uppercase;
 }
+
 .login_button{
 	margin-left: 40%;
 	height: 100px;
@@ -349,4 +383,76 @@ label{
 	margin-top: 100px;
 	font-size: 48px;
 	text-transform: uppercase;
+}
+
+.post_form_title{
+	width: 50%;
+	border-radius: 10px;
+	height: 30px;
+	font-size: 24px;
+	margin-left: 24%;
+	margin-top: 50px;
+
+}
+
+.post_form_div {
+	width: 96%;
+	height: 100%;
+	border: solid #6d25c4;
+	border-radius: 10px;
+	background-color: #373737;
+	margin-left: 35px;
+	margin-top: 22px;
+	-webkit-box-shadow: 0 0 20px #000;
+	box-shadow: 0 0 20px #000;
+}
+
+label[for=post_form_title_label]{
+	margin-top: 40px;
+    display:inline-block;
+	color: #bcbcbc;
+	margin-left: 47%;
+	font-size: 36px;
+}
+
+label[for=post_form_text_label]{
+	margin-top: 40px;
+    display:inline-block;
+	color: #bcbcbc;
+	margin-left: 47%;
+	font-size: 36px;
+}
+
+.h1_post_create{
+	color: #bcbcbc;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.django-ckeditor-widget{
+	margin-top: 50px;
+	margin-left: 26%;
+}
+
+.post_form_button{
+	margin-left: 48%;
+	margin-top: 100px;
+	transition: 0.5s;
+	background-color: #373737;
+	height: 50px;
+	width: 150px;
+	border-radius: 20px;
+	text-align: center;
+	border: #6d25c4 solid;
+}
+
+.post_form_button:hover{
+	background-color: #7a7a7a;
+}
+
+.text_button{
+	font-size: 20px;
+	color: #bcbcbc;
+	text-decoration: none;
+	line-height: 2.5em;
 }
