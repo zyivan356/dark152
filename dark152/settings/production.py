@@ -156,7 +156,10 @@ CKEDITOR_CONFIGS = {
    'default': {
        'toolbar_Full': [
             ['Format', 'Bold', 'Italic', 'Underline', 'Strike', 'SpellChecker', 'Undo', 'Redo'],
-            ['TextColor', 'BGColor'],
+            ['Image'],
+            ['TextColor'],
+
         ],
+        'width': '600px'
    },
 }
