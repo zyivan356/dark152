@@ -148,7 +148,6 @@ AWS_URL = os.environ.get('AWS_URL')
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 AWS_MEDIA_URL = "{}/{}/".format(AWS_URL, AWS_STORAGE_BUCKET_NAME)
-AWS_QUERYSTRING_AUTH = False
 MEDIA_URL = AWS_MEDIA_URL
 
 
@@ -156,7 +155,6 @@ CKEDITOR_CONFIGS = {
    'default': {
        'toolbar_Full': [
             ['Format', 'Bold', 'Italic', 'Underline', 'Strike', 'SpellChecker', 'Undo', 'Redo'],
-            ['Image'],
             ['TextColor'],
 
         ],
