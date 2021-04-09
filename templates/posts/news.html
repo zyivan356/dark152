@@ -22,7 +22,7 @@
     {% for post in posts %}
 
         <div class="news_post">
-            <img class="news_post_avatar_div" src="{{ user.avatar.url }}">
+            <img class="news_post_avatar_div" src="{% static 'home/images/default_avatar.png' %}">
             <div class="news_post_author_and_pubdate_div">
                 <a class="news_post_author" href="{% url 'accounts:users' post.author.id %}">{{ post.author.username }}</a>
                 <p class="news_post_pubdate">&nbsp&nbsp{{ post.pubdate|date:"d.m.y" }}</p>
