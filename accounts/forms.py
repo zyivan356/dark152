@@ -6,8 +6,8 @@ User = get_user_model()
 
 
 class UserLoginForm(forms.Form):
-    email = forms.CharField(widget=forms.EmailInput(attrs={'class': 'email_form'}))
-    password = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'password_form'}))
+    email = forms.CharField(widget=forms.EmailInput(attrs={'class': 'login_email_form', 'id': 'login_form_email_label'}))
+    password = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'login_password_form', 'id': 'login_form_password_label'}))
 
     def clean(self, *args, **kwargs):
         email = self.cleaned_data.get('email')
@@ -27,13 +27,13 @@ class UserLoginForm(forms.Form):
 
 class UserRegistrationForm(forms.ModelForm):
     email = forms.CharField(
-        label="Enter the email", widget=forms.EmailInput(attrs={'class': 'email_form'}))
+        label="Email", widget=forms.EmailInput(attrs={'class': 'register_email_form', 'id': 'register_form_email_label'}))
     username = forms.CharField(
-        label="Enter the username", widget=forms.TextInput(attrs={'class': 'username_form'}))
+        label="Username", widget=forms.TextInput(attrs={'class': 'register_username_form', 'id': 'register_form_username_label'}))
     password = forms.CharField(
-        label="Enter the password", widget=forms.PasswordInput(attrs={'class': 'password_form'}))
+        label="Password", widget=forms.PasswordInput(attrs={'class': 'register_password_form', 'id': 'register_form_password_label'}))
     password2 = forms.CharField(
-        label="Confirm the password", widget=forms.PasswordInput(attrs={'class': 'password2_form'}))
+        label="Confirm the password", widget=forms.PasswordInput(attrs={'class': 'register_password2_form', 'id': 'register_form_password2_label'}))
 
     class Meta:
         model = User

@@ -144,13 +144,13 @@ html, body{
 
 .profile_post_text{
 	padding: 20px;
-	color: #bcbcbc;
 }
 
 .profile_post_text_div{
     overflow: hidden;
     height: 150px;
     width: 90%;
+	color: #bcbcbc;
 }
 
 .profile_post_text_div__inner{
@@ -198,13 +198,13 @@ html, body{
 
 .news_post_text{
 	padding: 20px;
-	color: #bcbcbc;
 }
 
 .news_post_text_div{
     overflow: hidden;
     height: 150px;
     width: 90%;
+	color: #bcbcbc;
 }
 
 .news_post_text_div__inner{
@@ -305,58 +305,25 @@ html, body{
 
 .register_logo{
 	font-size: 64px;
-	color: white;
+	color: #bcbcbc;
 	text-align: center;
 	padding-top: 200px;
-	text-transform: uppercase;
-}
-
-.email_form{
-	font-size: 36px;
-	border: white;
-	border-radius: 20px;
-	margin-top: 30px;
-	margin-left: 153px;
-	outline:none;
-}
-
-.username_form{
-	font-size: 36px;
-	border: white;
-	border-radius: 20px;
-	margin-top: 30px;
-	margin-left: 76px;
-	outline:none;
-}
-
-.password_form{
-	font-size: 36px;
-	border: white;
-	border-radius: 20px;
-	margin-top: 30px;
-	margin-left: 85px;
-	outline:none;
-}
-
-.password2_form{
-	font-size: 36px;
-	border: white;
-	border-radius: 20px;
-	margin-top: 30px;
-	margin-left: 40px;
-	outline:none;
 }
 
 .register_button{
-	margin-left: 40%;
-	height: 100px;
-	width: 400px;
-	background-color: white;
-	border: white;
-	border-radius: 20px;
+	margin-left: 46%;
 	margin-top: 100px;
-	font-size: 48px;
-	text-transform: uppercase;
+	transition: 0.5s;
+	background-color: #373737;
+	height: 50px;
+	width: 150px;
+	border-radius: 20px;
+	text-align: center;
+	border: #6d25c4 solid;
+}
+
+.register_button:hover{
+	background-color: #7a7a7a;
 }
 
 .login_background{
@@ -367,22 +334,32 @@ html, body{
 
 .login_logo{
 	font-size: 64px;
-	color: white;
+	color: #bcbcbc;
 	text-align: center;
 	padding-top: 200px;
-	text-transform: uppercase;
 }
 
 .login_button{
-	margin-left: 40%;
-	height: 100px;
-	width: 400px;
-	background-color: white;
-	border: white;
-	border-radius: 20px;
+	margin-left: 46%;
 	margin-top: 100px;
-	font-size: 48px;
-	text-transform: uppercase;
+	transition: 0.5s;
+	background-color: #373737;
+	height: 50px;
+	width: 150px;
+	border-radius: 20px;
+	text-align: center;
+	border: #6d25c4 solid;
+}
+
+.login_button:hover{
+	background-color: #7a7a7a;
+}
+
+.text_button{
+	font-size: 20px;
+	color: #bcbcbc;
+	text-decoration: none;
+	line-height: 2.5em;
 }
 
 .post_form_title{
@@ -450,9 +427,134 @@ label[for=post_form_text_label]{
 	background-color: #7a7a7a;
 }
 
-.text_button{
+.text_button {
 	font-size: 20px;
 	color: #bcbcbc;
 	text-decoration: none;
 	line-height: 2.5em;
+}
+
+.login_form_div{
+	width: 96%;
+	height: 100%;
+	border: solid #6d25c4;
+	border-radius: 10px;
+	background-color: #373737;
+	margin-left: 35px;
+	margin-top: 22px;
+	-webkit-box-shadow: 0 0 20px #000;
+	box-shadow: 0 0 20px #000;
+}
+
+.login_email_form{
+	padding: 10px;
+  	border: 0;
+	border-radius: 10px;
+	width: 20%;
+	margin-left: 39%;
+	margin-top: 50px;
+}
+
+.login_password_form{
+	padding: 10px;
+  	border: 0;
+	border-radius: 10px;
+	width: 20%;
+	margin-left: 39%;
+	margin-top: 50px;
+}
+
+label[for=login_form_email_label]{
+	margin-top: 50px;
+	margin-right: 48%;
+	font-size: 24px;
+	float: right;
+	color: #bcbcbc;
+}
+
+label[for=login_form_password_label]{
+	margin-top: 50px;
+	margin-right: 47%;
+	font-size: 24px;
+	float: right;
+	color: #bcbcbc;
+}
+
+.register_email_form{
+	padding: 10px;
+  	border: 0;
+	border-radius: 10px;
+	width: 20%;
+	margin-left: 39%;
+	margin-top: 50px;
+}
+.register_username_form{
+	padding: 10px;
+  	border: 0;
+	border-radius: 10px;
+	width: 20%;
+	margin-left: 39%;
+	margin-top: 50px;
+}
+
+.register_password_form{
+	padding: 10px;
+  	border: 0;
+	border-radius: 10px;
+	width: 20%;
+	margin-left: 39%;
+	margin-top: 50px;
+}
+
+.register_password2_form{
+	padding: 10px;
+  	border: 0;
+	border-radius: 10px;
+	width: 20%;
+	margin-left: 39%;
+	margin-top: 50px;
+}
+
+label[for=register_form_email_label]{
+	margin-top: 50px;
+	margin-right: 48%;
+	font-size: 24px;
+	float: right;
+	color: #bcbcbc;
+}
+
+label[for=register_form_username_label]{
+	margin-top: 50px;
+	margin-right: 47%;
+	font-size: 24px;
+	float: right;
+	color: #bcbcbc;
+}
+
+label[for=register_form_password_label]{
+	margin-top: 50px;
+	margin-right: 47%;
+	font-size: 24px;
+	float: right;
+	color: #bcbcbc;
+}
+
+label[for=register_form_password2_label]{
+	margin-top: 50px;
+	margin-right: 43%;
+	font-size: 24px;
+	float: right;
+	color: #bcbcbc;
+}
+
+.register_form_div{
+	width: 96%;
+	height: 1500px;
+	border: solid #6d25c4;
+	border-radius: 10px;
+	background-color: #373737;
+	margin-left: 35px;
+	margin-top: 22px;
+	-webkit-box-shadow: 0 0 20px #000;
+	box-shadow: 0 0 20px #000;
 }
